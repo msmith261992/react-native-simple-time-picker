@@ -60,7 +60,7 @@ export function TimePicker({
   },
   ...others
 }: TimePickerProps) {
-  let MAX_HOURS = 23;
+  let MAX_HOURS = 7;
   let MIN_HOURS = 0;
 
   if (isAmpm) {
